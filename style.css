@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 70%;
+    margin: 100px auto;
+    position: relative;
+}
+h1{
+    font-family: "Courgette", cursive;
+    font-size: 45px;
+    position: absolute;
+    top: 0;
+    left: 370px;
+}
+.calculator{
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    transform: rotate(340deg);
+    animation: calculator 1s linear 1 forwards;
+}
+@keyframes calculator {
+    0%{
+        top: 240px;
+        opacity: 0;
+    }
+    100%{
+        top: 180px;
+        opacity: 1;
+    }
+}
+.notebook{
+    width: 150px;
+    height: 160px;
+    position: absolute;
+    top: 112px;
+    left: 350px;
+    transform: rotate(345deg);
+    animation: notebook 2s linear 1 forwards;
+}
+@keyframes notebook {
+    0%{
+        top: 172px;
+        opacity: 0;
+    }
+    50%{
+        top: 172px;
+        opacity: 0;
+    }
+    100%{
+        top: 112px;
+        opacity: 1;
+    }
+}
+.notepaper{
+    width: 150px;
+    height: 160px;
+    position: absolute;
+    top: 112px;
+    left: 550px;
+    transform: rotate(15deg);
+    animation: notepaper 3s linear 1 forwards;
+}
+@keyframes notepaper {
+    0%{
+        top: 172px;
+        opacity: 0;
+    }
+    66%{
+        top: 172px;
+        opacity: 0;
+    }
+    100%{
+        top: 112px;
+        opacity: 1;
+    }
+}
+.colorpalette{
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 180px;
+    left: 780px;
+    transform: rotate(200deg);
+    animation: colorpalette 4s linear 1 forwards;
+}
+@keyframes colorpalette{
+    0%{
+        top: 240px;
+        opacity: 0;
+    }
+    75%{
+        top: 240px;
+        opacity: 0;
+    }
+    100%{
+        top: 180px;
+        opacity: 1;
+    }
+}
+.pencil{
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    top: 300px;
+    left: 490px;
+    transform: rotate(90deg);
+    animation: pencil 5s linear 1 forwards;
+}
+@keyframes pencil {
+    0%{
+        top: 360px;
+        opacity: 0;
+    }
+    80%{
+        top: 360px;
+        opacity: 0;
+    }
+    100%{
+        top: 300px;
+        opacity: 1;
+    }
+}
